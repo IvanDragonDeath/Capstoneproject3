@@ -21,8 +21,8 @@ function main() {
   ReactDOM.render(
     
     <Base>
-      <Results>
-      </Results>
+      {/* <Results>
+      </Results> */}
       <Image>
       </Image>
       <Header>
