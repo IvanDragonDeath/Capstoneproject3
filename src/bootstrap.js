@@ -32,7 +32,7 @@ function main() {
       <Redirect>
       </Redirect>
     </Base>
-    , document.querySelector('.app-wrapper', 'Search-Box', 'Search-Results'));
+    , document.querySelector('.app-wrapper', 'Search-Box', 'Search-Results', 'Results'));
 }
 
 document.addEventListener('DOMContentLoaded', main);
