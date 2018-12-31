@@ -1,11 +1,11 @@
 import React from 'react';
 
-import {Redirect} from './Redirect'
 
 
- export function SearchBar() {
+
+ export function SearchBox() {
     return (
-      <div className= 'Search_Bar2'>
+      <div className= 'Search_box'>
           <div>
         
           <button onClick= {Redirect} >
@@ -15,5 +15,3 @@ import {Redirect} from './Redirect'
       </div>
     )
   }
-
-
