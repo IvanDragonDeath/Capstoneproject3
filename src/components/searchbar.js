@@ -8,7 +8,7 @@ import {Redirect} from './Redirect'
           <div>
         
           <button onClick= {Redirect} >
-                  Click Me To Go back       
+                  Looking for something else?      
           </button>        
           </div>
       </div>

@@ -6,6 +6,7 @@ import SearchBar from './components/searchbar';
 import Base from './components/base';
 import Header from './components/header';
 import { Redirect } from './components/Redirect';
+import { Results } from './components/results';
 
 
 
@@ -15,11 +16,13 @@ import './style/main.scss';
 
 
 
+
 function main() {
   ReactDOM.render(
     
     <Base>
-      
+      <Results>
+      </Results>
       <Image>
       </Image>
       <Header>

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { SearchBar } from './searchbar';
 import { Header } from './header';
 import { Image } from './image';
+import { Results } from './results';
 
 
 
@@ -13,6 +14,7 @@ class Base extends Component {
                 <SearchBar/>
                 <Header/>
                 <Image/>
+                <Results/>
             </div>
         )
         }
